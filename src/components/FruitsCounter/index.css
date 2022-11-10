@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.image {
+  height: 200px;
+  margin-right: 60px;
+}
+.fruits-container {
+  background-color: white;
+  background-size: cover;
+  height: 80vh;
+  width: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-style {
+  color: white;
+  cursor: pointer;
+  background-color: #007bff;
+  border: 2px solid white;
+  font-family: 'Roboto';
+  padding: 6px;
+  border-radius: 5px;
+}
+.btn1 {
+  margin-right: 190px;
+}
+.span {
+  color: #ffd569;
+}
